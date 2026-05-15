@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, render_template
-from legal_agent import ask_legal_question
+from app.legal_agent import ask_legal_question
 import os
 
 app = Flask(__name__, template_folder="templates")
