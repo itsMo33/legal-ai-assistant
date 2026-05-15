@@ -39,5 +39,5 @@ def clear():
     return jsonify({"status": "cleared"})
 
 if __name__ == "__main__":
-    print("الخادم يعمل على: http://localhost:5000")
-    app.run(debug=True, port=5000)
+    print("الخادم يعمل على Render")
+    app.run(host="0.0.0.0", port=10000)
